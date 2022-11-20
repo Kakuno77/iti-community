@@ -1,0 +1,53 @@
+{
+  "name": "iti-community",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~14.2.7",
+    "@angular/common": "~14.2.7",
+    "@angular/compiler": "~14.2.7",
+    "@angular/core": "~14.2.7",
+    "@angular/forms": "~14.2.7",
+    "@angular/platform-browser": "~14.2.7",
+    "@angular/platform-browser-dynamic": "~14.2.7",
+    "@angular/router": "~14.2.7",
+    "socket.io-client": "~3.1.0",
+    "lodash-es": "^4.17.15",
+    "luxon": "1.25.0",
+    "ng-zorro-antd": "^14.1.1",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.4.0",
+    "utility-types": "^3.10.0",
+    "zone.js": "~0.11.8"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~14.2.6",
+    "@angular/cli": "~14.2.6",
+    "@angular/compiler-cli": "~14.2.7",
+    "@types/node": "^16.11.1",
+    "@types/jasmine": "~4.3.0",
+    "@types/jasminewd2": "~2.0.10",
+    "@types/lodash-es": "^4.17.6",
+    "@types/luxon": "1.25.0",
+    "codelyzer": "^6.0.2",
+    "jasmine-core": "~4.4.0",
+    "jasmine-spec-reporter": "~7.0.0",
+    "karma": "~6.4.1",
+    "karma-chrome-launcher": "~3.1.1",
+    "karma-coverage-istanbul-reporter": "~3.0.3",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "^2.0.0",
+    "protractor": "~7.0.0",
+    "ts-node": "~10.9.1",
+    "tslint": "~6.1.3",
+    "typescript": "~4.8.4"
+  }
+}
